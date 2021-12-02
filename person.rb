@@ -22,7 +22,7 @@ class Person
   end
 
   def validate_name
-    @name = @corrector.correct_name(@name)
+    @name = @corrector.correct_name
   end
 
   private :of_age?
