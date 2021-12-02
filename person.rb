@@ -32,5 +32,5 @@ class Person
   end
 end
 
-me = Person.new(14, 'Isabel')
+me = Person.new(14, 'donard')
 p me.validate_name
