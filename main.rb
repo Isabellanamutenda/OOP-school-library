@@ -22,7 +22,7 @@ end
 def create_person
   print('Do you want to create a student(1) or a teacher (2) [Input the number]:')
   input = gets.chomp
-  print('age:')
+  print('Age:')
   age = gets.chomp
   print('Name:')
   name = gets.chomp
@@ -39,7 +39,7 @@ def create_person
 end
 
 def create_book
-  print('title:')
+  print('Title:')
   title = gets.chomp
   print('Author:')
   author = gets.chomp
