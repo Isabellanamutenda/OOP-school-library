@@ -20,7 +20,7 @@ def create_teacher(age, name)
 end
 
 def create_person
-  print('Do you want to create a student(1) or a Teacher (2) [Input the number]:')
+  print('Do you want to create a student(1) or a teacher (2) [Input the number]:')
   input = gets.chomp
   print('age:')
   age = gets.chomp
